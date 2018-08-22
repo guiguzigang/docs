@@ -10,7 +10,7 @@ description: Window 或 Document 对象未定义？
 
 举个例子， 在你的 `.vue` 文件中：
 ```js
-if (process.BROWSER_BUILD) {
+if (process.browser) {
   require('external_library')
 }
 ```
